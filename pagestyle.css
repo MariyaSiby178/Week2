@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(35, 35, 35);
+    padding-inline: 60px;
+    padding-top: 40px;
+    text-align: left;
+    column-count: 2;
+    column-width: 100%;
+    column-gap: 30px;
+}
+.gap{
+    margin: -2px;
+    width: 50px;
+    height: 25px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.contact{
+    color: rgb(214, 204, 204);
+}
+i{
+    float: right;
+    padding-right: 40px;
+    border: 1px solid rgb(23, 23, 23);
+    color: grey; 
+    padding-block: 5px;
+    padding-inline: 10px;
+    box-shadow: 1px 1px 1px;
+}
+.padding{
+    margin-bottom: 80px;
+    margin-left: -3px;
+}
+h2{
+    color: antiquewhite;
+}
+.color{
+    color: rgb(141, 140, 140);
+}
+.right{
+    text-align: right;
+    color: antiquewhite;
+}
+.center{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    color: black;
+}
+.style{
+    text-align: center;
+    font-size: 18px;
+}
+.button1{
+    background-color: rgb(1, 160, 239);
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    margin-left: 635px;
+}
+.button2{
+    background-color: rgb(150, 158, 161);
+    border-radius: 3px;
+    padding: 5px;
+}
+.main1 , .main2{
+    margin: 0px;
+    float: left;
+    width: 100%;
+    display: flex;
+    background-color: rgb(230, 228, 228);
+}
+.button-container {
+    display: flex;
+}
+#top{
+    padding-top: 25px;
+}
+#bottom{
+    padding-bottom: 45px;
+}
+.float{
+    float: right;
+    color: black;
+}
+.justify{
+    padding: 30px;
+}
+div{
+    padding-bottom: 50px;
+}
+.card1,  .card2, .card3{
+    background-color: #ffffff;
+    height: 400px;
+    margin: 40px;
+    width: 35%;
+    border: 1px solid grey;
+    box-shadow: 3px 2px 4px rgb(134, 128, 128);
+}
+.template{
+    background-color: rgb(79, 78, 78);
+    height: 50%;
+    text-align: center;
+}
+.center1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+@media screen and (max-width:800px){
+    .right, .main1, .main2{
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:400px){
+    .main1, .main2{
+        width: 100%;
+        height: 100%;
+        float: none;
+    }
+}
+.footer{
+    padding: 20px 60px 40px 60px;
+    color: rgb(55, 54, 54);
+}
+a:hover{
+    font-size: large;
+    color: rgb(35, 2, 248);
+}
+.hide{
+    visibility: hidden;
+}
+p{
+    line-height: 30px;
+}
